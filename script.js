@@ -5,7 +5,7 @@ addToCartbtn.forEach(button => {
   
   function addToCart(event) {
     let menuItem = event.target.parentNode;
-    let itemName = menuItem.querySelector('h2').textContent;
+    let itemName = menuItem.querySelector('h3').textContent;
 
     let cartItems = document.querySelectorAll('#cart tr');
     for (let item of cartItems) {
