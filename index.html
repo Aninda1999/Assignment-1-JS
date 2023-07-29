@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Menu of Items</title>
+    <style>
+        /* Optional: You can add some basic styling to make the menu look nicer */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .menu-item {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            width: 150px;
+            height: 150px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        a:hover {
+            background-color: #ddd;
+        }
+
+        #table {
+            width: 50%;
+            border: 1px dotted black;
+            border-color: black;
+
+        }
+    </style>
+</head>
+<body>
+
+<div id="menu-list">
+
+    <h1>Menu of Items</h1>
+        <div class="menu-item">
+        <h2>Item 1</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+    </div>
+    <div class="menu-item">
+        <h2>Item 2</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+    </div>
+    <div class="menu-item">
+        <h2>Item 3</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+    </div>
+    <div class="menu-item">
+        <h2>Item 4</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+        </div>
+    <div class="menu-item">
+        <h2>Item 5</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+    </div>
+    <div class="menu-item">
+        <h2>Item 6</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+    </div>
+    <div class="menu-item">
+        <h2>Item 7</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+        </div>
+    <div class="menu-item">
+        <h2>Item 8</h2>
+        <input type="button" value="Add To Cart" class="addtocart">
+    </div>
+</div>
+   <br>
+   <div id="table">
+    <h3>Your Cart</h3>
+    <table class="u-full-width">
+        <thead>
+            <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th></th>
+            </tr>
+        </thead>
+        <tbody id="cart">
+
+        </tbody>
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
